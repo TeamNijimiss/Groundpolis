@@ -922,7 +922,7 @@ _registry:
   createKey: "キーを作成"
 
 _aboutMisskey:
-  about: "Groundpolis は、Misskeyをベースに2019年から開発中のミニブログソフトウェアです。"
+  about: "にじぐら.art は、カスタマイズされたGroundpolisを使用して稼働しています。\nGroundpolis は、Misskeyをベースに2019年から開発中のミニブログソフトウェアです。"
   contributors: "主なコントリビューター"
   contributorsMisskey: "Misskey の主なコントリビューター"
   allContributors: "全てのコントリビューター"

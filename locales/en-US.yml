@@ -882,7 +882,7 @@ _registry:
   domain: "Domain"
   createKey: "Create key"
 _aboutMisskey:
-  about: "Groundpolis is open-source software being developed based on Misskey since 2019."
+  about: "Nijigra.art runs on a customized version of Groundpolis.\nGroundpolis is open-source software being developed based on Misskey since 2019."
   contributors: "Main contributors"
   contributorsMisskey: "Main contributors of Misskey"
   allContributors: "All contributors"
