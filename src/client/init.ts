@@ -131,7 +131,7 @@ if (iOSVersion && iOSVersion < 15 && !legacyWebkitCompatibleMode) {
 
 if (defaultStore.state.reportError && !_DEV_) {
 	Sentry.init({
-		dsn: 'https://6f81b7c836e840d1aee49be533b0f26a@o502733.ingest.sentry.io/5585379',
+		dsn: 'https://d2d14a1ab56348528cd9d6a09a35ab54@o289604.ingest.sentry.io/6129523',
 		tracesSampleRate: 1.0,
 	});
 
