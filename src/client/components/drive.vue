@@ -296,26 +296,6 @@ export default defineComponent({
 			(this.$refs.fileInput as any).click();
 		},
 
-		urlUpload() {
-			os.dialog({
-				title: this.$ts.uploadFromUrl,
-				input: {
-					placeholder: this.$ts.uploadFromUrlDescription
-				}
-			}).then(({ canceled, result: url }) => {
-				if (canceled) return;
-				os.api('drive/files/upload_from_url', {
-					url: url,
-					folderId: this.folder ? this.folder.id : undefined
-				});
-
-				os.dialog({
-					title: this.$ts.uploadFromUrlRequested,
-					text: this.$ts.uploadFromUrlMayTakeTime
-				});
-			});
-		},
-
 		createFolder() {
 			os.dialog({
 				title: this.$ts.createFolder,
@@ -608,10 +588,6 @@ export default defineComponent({
 				text: this.$ts.upload,
 				icon: faUpload,
 				action: () => { this.selectLocalFile(); }
-			}, {
-				text: this.$ts.fromUrl,
-				icon: faLink,
-				action: () => { this.urlUpload(); }
 			}, null, {
 				text: this.folder ? this.folder.name : this.$ts.drive,
 				type: 'label'
