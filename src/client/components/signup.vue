@@ -36,6 +36,10 @@
 				<p v-if="passwordRetypeState == 'not-match'" style="color:#FF1161"><Fa :icon="faExclamationTriangle" fixed-width/> {{ $ts.passwordNotMatched }}</p>
 			</template>
 		</MkInput>
+		<label class="tou">
+			<input type="checkbox" v-model="AgeVerification">
+			<I18n :src="$ts.ageVerification" />
+		</label>
 		<label v-if="meta.tosUrl" class="tou">
 			<input type="checkbox" v-model="ToSAgreement">
 			<I18n :src="$ts.agreeTo">
@@ -93,6 +97,7 @@ export default defineComponent({
 			passwordStrength: '',
 			passwordRetypeState: null,
 			submitting: false,
+			AgeVerification: false,
 			ToSAgreement: false,
 			hCaptchaResponse: null,
 			reCaptchaResponse: null,
@@ -107,6 +112,7 @@ export default defineComponent({
 
 		shouldDisableSubmitting(): boolean {
 			return this.submitting ||
+				!this.AgeVerification ||
 				this.meta.tosUrl && !this.ToSAgreement ||
 				this.meta.enableHcaptcha && !this.hCaptchaResponse ||
 				this.meta.enableRecaptcha && !this.reCaptchaResponse ||
