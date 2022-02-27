@@ -1323,7 +1323,6 @@ _widgets:
   serverMetric: "Server metrics"
   aiscript: "AiScript console"
   aichan: "Ai-chan"
-  search: "Search"
 _cw:
   hide: "Hide"
   show: "Load more"
