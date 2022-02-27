@@ -1410,6 +1410,7 @@ _widgets:
   serverMetric: "サーバーメトリクス"
   aiscript: "AiScriptコンソール"
   aichan: "藍"
+  search: "検索"
 
 _cw:
   hide: "隠す"
