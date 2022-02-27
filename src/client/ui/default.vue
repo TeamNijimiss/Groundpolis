@@ -136,17 +136,14 @@ export default defineComponent({
 
 		if (this.$store.state.widgets.length === 0) {
 			this.$store.set('widgets', [{
-				name: 'search',
+				name: 'calendar',
 				id: 'a', place: 'right', data: {}
 			}, {
-				name: 'calendar',
+				name: 'notifications',
 				id: 'b', place: 'right', data: {}
 			}, {
-				name: 'notifications',
-				id: 'c', place: 'right', data: {}
-			}, {
 				name: 'trends',
-				id: 'd', place: 'right', data: {}
+				id: 'c', place: 'right', data: {}
 			}]);
 		}
 	},
