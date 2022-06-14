@@ -263,11 +263,6 @@ export default defineComponent({
 				text: this.$ts.abuseReports,
 				to: '/instance/abuses',
 				icon: faExclamationCircle,
-			}, {
-				type: 'link',
-				text: this.$ts.logs,
-				to: '/instance/logs',
-				icon: faStream,
 			}], ev.currentTarget || ev.target);
 		},
 
