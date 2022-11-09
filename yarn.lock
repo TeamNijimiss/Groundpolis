@@ -5726,10 +5726,10 @@ jsprim@^2.0.2:
     json-schema "0.4.0"
     verror "1.10.0"
 
-jsrsasign@10.5.25:
-  version "10.5.25"
-  resolved "https://registry.yarnpkg.com/jsrsasign/-/jsrsasign-10.5.25.tgz#8eb3f943718d73f2dd3d85f587f241a5316b835a"
-  integrity sha512-N7zxHaCwYvFlXsybq4p4RxRwn4AbEq3cEiyjbCrWmwA7g8aS4LTKDJ9AJmsXxwtYesYx0imJ+ITtkyyxLCgeIg==
+jsrsasign@10.6.0:
+  version "10.6.0"
+  resolved "https://registry.yarnpkg.com/jsrsasign/-/jsrsasign-10.6.0.tgz#9b6c5caa27fa91d770de5537ec842219a96f492c"
+  integrity sha512-4s1WTrv4dY14815G0kd/rZXIiXmy47rSsjpi/vLJN6bXACI+oR/cphErXmLdrqQPUPHtCY6dQVXZR8cJFUqsEg==
 
 jstransformer@1.0.0:
   version "1.0.0"
